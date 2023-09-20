@@ -1,0 +1,21 @@
+{
+  "name": "trace-method-homework",
+  "version": "1.0.0",
+  "description": "This homework consists in use the HTTP method 'trace' to test a route.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "trace-method-homework"
+  },
+  "author": "Lucas Gabriel Moizinho da Silva",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

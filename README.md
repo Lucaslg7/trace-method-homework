@@ -1,0 +1,1 @@
+# This is a homework consists in use the HTTP method 'trace' to test a route.
