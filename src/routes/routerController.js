@@ -2,6 +2,6 @@ const express = require('express');
 
 const app = express();
 
-app.listen(3000, () => {
-    console.log('pegou');
+app.get('/', (req, res) => {
+    res.send('<p>olá mundo</p>')
 })
