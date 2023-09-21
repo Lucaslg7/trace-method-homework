@@ -1,7 +1,16 @@
 const express = require('express');
 
-const app = express();
+const router = express.Router();
 
-app.get('/', (req, res) => {
-    res.send('<p>olá mundo</p>')
-})
+
+router.get('/', (req, res) => {
+    console.log('olá')
+    res.send();
+});
+
+router.get('/json', (req, res) => {
+    
+    res.send('ola mundo');
+}) 
+
+module.exports = router;
